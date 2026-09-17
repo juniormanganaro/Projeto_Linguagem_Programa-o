@@ -70,7 +70,7 @@ Para cada item serão informados:
 * Peso;
 * Produto;
 * Preço unitário;
-* Produtor;
+* Produtor.
 
 O sistema calculará automaticamente o valor total de cada item:
 
