@@ -94,8 +94,7 @@ O romaneio também receberá uma situação de pagamento:
 * 2 - PENDENTE
 
 ### 2.5 Histórico de Romaneios
-
-Na opção `5`, o usuário poderá consultar os romaneios registrados anteriormente. O sistema permitirá a consulta por:
+Na opção `4`, o usuário poderá consultar os romaneios registrados anteriormente. O sistema permitirá a consulta por:
 
 * Número do romaneio;
 * Produtor;
@@ -104,3 +103,9 @@ Na opção `5`, o usuário poderá consultar os romaneios registrados anteriorme
 * Tipo de operação – compra ou venda.
 
 Após localizar o registro no arquivo `romaneios.dat`, exibirá seus dados e o usuário vai poder alterar sua situação de pagamento de `Pendente` para `Pago`.
+
+### 2.6 Listagem de produtores e produtos
+As opções `5` e `6` permitirão visualizar os cadastros existentes no sistema, armazenados em `produtores.dat` e `produtos.dat`.
+
+### 2.7 Encerramento
+Ao selecionar a opção `7`, o sistema encerrará a execução.
