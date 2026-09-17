@@ -14,11 +14,39 @@ A proposta busca solucionar problemas relacionados ao preenchimento manual dos r
 
 ## 2. Fluxo de Utilização Esperado para o Sistema
 
-2.1. Ao iniciar o programa, o usuário visualizará um menu principal com as opções:
+### 2.1. Menu Principal
+Ao iniciar o programa, o usuário visualizará um menu principal com as opções:
    * `1. Cadastrar Produtor`
    * `2. Cadastrar Produto`
    * `3. Registrar Compra`
-   * `4. Consultar Romaneios/Histórico`
+   * `4. Histórico de Romaneios`
    * `5. Listar Produtores`
    * `6. Listar Produtos`
    * `7. Sair`
+
+### 2.2 Cadastro de Produtor
+
+Ao selecionar a opção `1`, o sistema solicitará os dados necessários para cadastrar um produtor.
+
+Serão solicitadas informações como:
+
+* Código do produtor;
+* Nome do produtor;
+* CPF/CNPJ;
+* Telefone;
+* Propriedade ou localidade.
+
+Após o preenchimento, os dados serão armazenados no sistema e poderão ser utilizados posteriormente no registro dos romaneios e salvará a struct no arquivo `produtores.dat`.
+
+### 2.3 Cadastro de Produto
+
+Na opção `2`, o usuário poderá cadastrar as variedades de uva comercializadas.
+
+Serão solicitadas informações como:
+
+* Código do produto;
+* Variedade da uva;
+* Unidade de comercialização;
+* Preço unitário.
+
+Os produtos cadastrados poderão ser selecionados posteriormente durante o preenchimento dos romaneios e a struct será salva no arquivo `produtos.dat`.
