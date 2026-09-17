@@ -14,7 +14,7 @@ A proposta busca solucionar problemas relacionados ao preenchimento manual dos r
 
 ## 2. Fluxo de Utilização Esperado para o Sistema
 
-### 2.1. Menu Principal
+### 2.1 Menu Principal
 Ao iniciar o programa, o usuário visualizará um menu principal com as opções:
    * `1. Cadastrar Produtor`
    * `2. Cadastrar Produto`
@@ -50,3 +50,57 @@ Serão solicitadas informações como:
 * Preço unitário.
 
 Os produtos cadastrados poderão ser selecionados posteriormente durante o preenchimento dos romaneios e a struct será salva no arquivo `produtos.dat`.
+
+### 2.4 Registro de Romaneio de Compra
+
+Ao selecionar a opção `3`, o sistema iniciará o registro de um romaneio de compra.
+
+Primeiramente, serão solicitados os dados gerais da operação:
+
+* Número do romaneio;
+* Data;
+* Tipo de operação;
+* Destino.
+
+Em seguida, o usuário poderá inserir um ou mais itens no romaneio.
+
+Para cada item serão informados:
+
+* Quantidade de volumes;
+* Peso;
+* Produto;
+* Preço unitário;
+* Produtor;
+
+O sistema calculará automaticamente o valor total de cada item:
+
+Preço Total = Peso × Preço Unitário
+
+Após o cadastro dos itens, o sistema calculará os totais do romaneio, incluindo:
+
+* Quantidade total de volumes;
+* Peso total;
+* Valor total dos produtos;
+* Comissão;
+* Frete;
+* Valor final.
+
+Em seguida, a struct será salva no arquivo `romaneios.dat`.
+
+### (no romaneio ou no histórico? acho que no romaneio né, que daí depois aparece no histórico e pode editar)
+O romaneio também receberá uma situação de pagamento:
+
+* 1 - PAGO
+* 2 - PENDENTE
+
+### 2.5 Histórico de Romaneios
+
+Na opção `5`, o usuário poderá consultar os romaneios registrados anteriormente. O sistema permitirá a consulta por:
+
+* Número do romaneio;
+* Produtor;
+* Produto;
+* Data;
+* Tipo de operação – compra ou venda.
+
+Após localizar o registro no arquivo `romaneios.dat`, exibirá seus dados e o usuário vai poder alterar sua situação de pagamento de `Pendente` para `Pago`.
