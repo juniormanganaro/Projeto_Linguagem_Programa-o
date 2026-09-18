@@ -4,7 +4,12 @@
 
 O projeto consiste em um sistema de gerenciamento para intermediários de uvas, desenvolvido em linguagem C. O modelo de dados é baseado em um romaneio manual real, utilizado por um comprador de uva, que reúne em um único documento numerado (Destino, Data e Nº do romaneio) uma tabela com vários itens, cada linha trazendo Quantidade, Peso, Produto, Produtor, Preço Unitário e Preço Total, seguida de totais gerais, Comissão, Frete e Valor líquido a receber.
 
-(foto do romaneio manual)
+<p align="center">
+Figura 01 – Romaneio manual
+</p>
+<p align="center">
+  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/6d705975-d24e-447e-a6e7-f7528764ca34" />
+</p>
 
 O sistema será destinado ao controle das operações realizadas entre compradores, produtores e vendedores de uvas. A aplicação permitirá registrar os dados dos produtores, cadastrar os produtos comercializados e gerar romaneios contendo informações como quantidade, peso, produto, preço unitário e preço total.
 
