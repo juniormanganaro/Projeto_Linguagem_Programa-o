@@ -12,6 +12,9 @@ Além do registro das mercadorias, o sistema realizará automaticamente os cálc
 
 A proposta busca solucionar problemas relacionados ao preenchimento manual dos romaneios, como erros de cálculo, dificuldade para localizar informações, perda de registros e necessidade de realizar repetidamente cálculos de valores e totais. Dessa forma, o sistema pretende tornar o processo de gerenciamento das operações de comercialização de uvas mais organizado, rápido e confiável, mantendo no formato digital as principais informações presentes no romaneio utilizado atualmente.
 
+___
+
+
 ## 2. Fluxo de Utilização Esperado para o Sistema
 
 ### 2.1 Menu Principal
@@ -109,3 +112,8 @@ As opções `5` e `6` permitirão visualizar os cadastros existentes no sistema,
 
 ### 2.7 Encerramento
 Ao selecionar a opção `7`, o sistema encerrará a execução.
+
+___
+
+
+## 3. Fluxograma da Lógica do Sistema
