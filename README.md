@@ -93,13 +93,12 @@ Após o cadastro dos itens, o sistema calculará os totais do romaneio, incluind
 * Frete;
 * Valor final.
 
-Em seguida, a struct será salva no arquivo `romaneios.dat`.
-
-### (no romaneio ou no histórico? acho que no romaneio né, que daí depois aparece no histórico e pode editar)
 O romaneio também receberá uma situação de pagamento:
 
 * 1 - PAGO
 * 2 - PENDENTE
+
+A struct será salva no arquivo `romaneios.dat`.
 
 ### 2.5 Histórico de Romaneios
 Na opção `4`, o usuário poderá consultar os romaneios registrados anteriormente. O sistema permitirá a consulta por:
