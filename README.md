@@ -135,8 +135,8 @@ ___
 
 // Estrutura para cadastrar produtores
 typedef struct {
-    int codprod[20];
-    char nomeprod[100];
+  * int codprod[20];
+  * char nomeprod[100];
     int cpf_cnpj[14];
     int telefone[11];
     char endereço [200];
