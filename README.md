@@ -127,3 +127,49 @@ Figura 02 – Fluxograma
 <p align="center">
   <img width="500" alt="Image" src="https://github.com/user-attachments/assets/591bc431-fee2-4336-bede-1b8393d75430" />
 </p>
+
+___
+
+
+## 4. Estrutura de Dados
+
+// Estrutura para cadastrar produtores
+typedef struct {
+    int codprod[20];
+    char nomeprod[100];
+    int cpf_cnpj[14];
+    int telefone[11];
+    char endereço [200];
+} produtor;
+
+// Estrutura para cadastro produto
+typedef struct {
+    int codproduto[20];
+    char nomeuva[100];
+    char unidade[20];
+    float precounit[10]
+} produto;
+
+// Estrutura para o registro de romaneio de compra
+typedef struct {
+    int numromaneio[20];
+    char data[11]; // formato DD/MM/AAAA
+    int ativo; // 1 para compra, 0 para venda (exclusão lógica)
+    char destino[200];
+    int quant[20];
+    float peso[20];
+    char nomeuva[100];
+    float precounit[10];
+    char nomeprod[100];
+    float quanttotal[20];
+    float pesototal[20];
+    float valortotal[20];
+    float precototal[20];
+    precototal = peso * precounit;
+    float comissao[20];
+    comissao = precototal * 0.15;
+    float frete [20];
+    float valorfinal[20];
+    valorfinal = precototal + frete + comissao;
+    int ativo; // 1 para pago, 0 para pendente (exclusão lógica);    
+} romaneio;
