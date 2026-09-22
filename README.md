@@ -137,7 +137,7 @@ ___
 typedef struct {
   * int codprod[20];
   * char nomeprod[100];
-    int cpf_cnpj[14];
+    int cpf_cnpj[14]\n;
     int telefone[11];
     char endereço [200];
 } produtor;
