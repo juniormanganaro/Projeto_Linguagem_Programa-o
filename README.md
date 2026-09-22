@@ -121,3 +121,9 @@ ___
 
 
 ## 3. Fluxograma da Lógica do Sistema
+<p align="center">
+Figura 02 – Fluxograma
+</p>
+<p align="center">
+  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/591bc431-fee2-4336-bede-1b8393d75430" />
+</p>
