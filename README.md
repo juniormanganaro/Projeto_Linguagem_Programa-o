@@ -2,7 +2,7 @@
 
 ## 1. Descrição do Sistema
 
-O projeto consiste em um sistema de gerenciamento para intermediários de uvas, desenvolvido em linguagem C. O modelo de dados é baseado em um romaneio manual real, utilizado por um comprador de uva, que reúne em um único documento numerado (Destino, Data e Nº do romaneio) uma tabela com vários itens, cada linha trazendo Quantidade, Peso, Produto, Produtor, Preço Unitário e Preço Total, seguida de totais gerais, Comissão, Frete e Valor líquido a receber.
+O projeto consiste em um sistema de gerenciamento para intermediários de uvas, desenvolvido em linguagem C. O modelo de dados é baseado em um romaneio manual real (Figura 01), utilizado por um comprador de uva, que reúne em um único documento numerado (Destino, Data e Nº do romaneio) uma tabela com vários itens, cada linha trazendo Quantidade, Peso, Produto, Produtor, Preço Unitário e Preço Total, seguida de totais gerais, Comissão, Frete e Valor líquido a receber.
 
 <p align="center">
 Figura 01 – Romaneio manual
