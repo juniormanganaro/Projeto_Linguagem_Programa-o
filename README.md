@@ -133,14 +133,14 @@ ___
 
 ## 4. Estrutura de Dados
 
-// Estrutura para cadastrar produtores
-typedef struct {
-  * int codprod[20];
-  * char nomeprod[100];
+// Estrutura para cadastrar produtores</p>
+typedef struct {</p>
+    int codprod[20];</p>
+    char nomeprod[100];</p>
     int cpf_cnpj[14];</p>
     int telefone[11];</p>
-    char endereço [200];
-} produtor;
+    char endereço [200];</p>
+} produtor;</p>
 
 // Estrutura para cadastro produto
 typedef struct {
