@@ -171,5 +171,7 @@ typedef struct {</p>
     float frete [20];</p>
     float valorfinal[20];</p>
     valorfinal = precototal + frete + comissao;</p>
-    int ativo; // 1 para pago, 0 para pendente (exclusão lógica);  </p>  
-} romaneio;</p>
+    int ativo; // 1 para pago, 0 para pendente (exclusão lógica);</p>  
+} romaneio;
+
+
