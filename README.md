@@ -142,34 +142,34 @@ typedef struct {</p>
     char endereço [200];</p>
 } produtor;</p>
 
-// Estrutura para cadastro produto
-typedef struct {
-    int codproduto[20];
-    char nomeuva[100];
-    char unidade[20];
-    float precounit[10]
-} produto;
+// Estrutura para cadastro produto</p>
+typedef struct {</p>
+    int codproduto[20];</p>
+    char nomeuva[100];</p>
+    char unidade[20];</p>
+    float precounit[10]</p>
+} produto;</p>
 
-// Estrutura para o registro de romaneio de compra
-typedef struct {
-    int numromaneio[20];
-    char data[11]; // formato DD/MM/AAAA
-    int ativo; // 1 para compra, 0 para venda (exclusão lógica)
-    char destino[200];
-    int quant[20];
-    float peso[20];
-    char nomeuva[100];
-    float precounit[10];
-    char nomeprod[100];
-    float quanttotal[20];
-    float pesototal[20];
-    float valortotal[20];
-    float precototal[20];
-    precototal = peso * precounit;
-    float comissao[20];
-    comissao = precototal * 0.15;
-    float frete [20];
-    float valorfinal[20];
-    valorfinal = precototal + frete + comissao;
-    int ativo; // 1 para pago, 0 para pendente (exclusão lógica);    
-} romaneio;
+// Estrutura para o registro de romaneio de compra</p>
+typedef struct {</p>
+    int numromaneio[20];</p>
+    char data[11]; // formato DD/MM/AAAA</p>
+    int ativo; // 1 para compra, 0 para venda (exclusão lógica)</p>
+    char destino[200];</p>
+    int quant[20];</p>
+    float peso[20];</p>
+    char nomeuva[100];</p>
+    float precounit[10];</p>
+    char nomeprod[100];</p>
+    float quanttotal[20];</p>
+    float pesototal[20];</p>
+    float valortotal[20];</p>
+    float precototal[20];</p>
+    precototal = peso * precounit;</p>
+    float comissao[20];</p>
+    comissao = precototal * 0.15;</p>
+    float frete [20];</p>
+    float valorfinal[20];</p>
+    valorfinal = precototal + frete + comissao;</p>
+    int ativo; // 1 para pago, 0 para pendente (exclusão lógica);  </p>  
+} romaneio;</p>
